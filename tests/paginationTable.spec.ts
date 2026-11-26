@@ -38,7 +38,7 @@ test("Filter rows and check rows count", async ({ page }) => {
 
 });
 
-test.only("Search in specific data from table", async ({ page }) => {
+test("Search in specific data from table", async ({ page }) => {
     await page.goto("https://datatables.net/examples/core/basic_init/zero_configuration.html");
     const searchBox: Locator = page.locator("#dt-search-0");
     await searchBox.fill("Vivian Harrell");

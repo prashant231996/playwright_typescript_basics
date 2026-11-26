@@ -25,7 +25,7 @@ test("Verify CPU load of Chrome process", async ({ page }) => {
 
 });
 
-test.only("Verify Memory Size of Firefox process",async({page})=>
+test("Verify Memory Size of Firefox process",async({page})=>
 {
     await page.goto("https://testautomationpractice.blogspot.com/");
 
